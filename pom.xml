@@ -8,7 +8,8 @@
     <artifactId>project_eight</artifactId>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>eureka7001</module>
+        <module>eureka8761</module>
+        <module>testdemo</module>
     </modules>
     <packaging>pom</packaging>
 
