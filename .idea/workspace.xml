@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3051aae3-a9de-4ce6-9dec-9cec930f916a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../MyBatisDemo01/src/main/java/com/itqf/dao/ProductDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyBatisDemo01/src/main/java/com/itqf/entity/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyBatisDemo01/src/main/java/com/itqf/utils/MybatisUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyBatisDemo01/src/main/resources/druid.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyBatisDemo01/src/main/resources/mapper/ProductMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyBatisDemo01/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyBatisDemo01/src/test/java/com/itqf/test/TestCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyBatisDemo01/src/test/java/com/itqf/test/TestMybatis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MybatisDemo04/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka7001/src/main/java/com/itqf/eight/EurekaServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka7001/src/main/java/com/itqf/eight/EurekaServerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xiaomi/src/com/qf/xiaomi/dto/OrderDetailDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../xiaomi/src/com/qf/xiaomi/dto/OrderDetailDTO.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="jdkForImporter" value="1.8 (2)" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1inx91ywvStlS0Gy1lB7jBwSu2E" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3051aae3-a9de-4ce6-9dec-9cec930f916a" name="Default Changelist" comment="" />
+      <created>1602557001572</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602557001572</updated>
+      <workItem from="1602557004441" duration="4380000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="912" y="340" key="new project wizard" timestamp="1602559595262">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="912" y="340" key="new project wizard/-1920.206.1920.1177/0.23.2560.1417@0.23.2560.1417" timestamp="1602559595262" />
+  </component>
+</project>
