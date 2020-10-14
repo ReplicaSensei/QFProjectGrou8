@@ -3,6 +3,12 @@ server:
 spring:
   application:
     name: provider01
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: zsr1401407..
+    url: jdbc:mysql://localhost:3306/bookshop?useSSL=false&serverTimezone=GMT%2B8
+
 eureka:
   client:
     service-url:
