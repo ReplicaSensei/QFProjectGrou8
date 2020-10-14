@@ -1,0 +1,18 @@
+server:
+  port: 8084
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    prefer-ip-address: true
+spring:
+  application:
+    name: api-gateway
+
+zuul:
+  routes:
+    provider01:
+      path: /demo/**
+
+  sensitive-headers:

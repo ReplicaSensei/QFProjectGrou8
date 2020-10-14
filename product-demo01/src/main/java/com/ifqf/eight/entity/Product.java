@@ -27,6 +27,8 @@ package com.ifqf.eight.entity;
  */
 
 import lombok.Data;
+import org.hibernate.annotations.DynamicUpdate;
+import org.springframework.format.annotation.DateTimeFormat;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
@@ -35,6 +37,7 @@ import java.util.Date;
 
 @Data
 @Entity
+@DynamicUpdate
 public class Product {
     @Id
     private Integer pId;
@@ -43,6 +46,7 @@ public class Product {
 
     private String pName;
 
+    @DateTimeFormat(pattern = "yyyy-MM-dd HH:mm:ss")
     private Date pTime;
 
     private String pInfo;

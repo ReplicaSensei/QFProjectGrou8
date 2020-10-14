@@ -8,7 +8,9 @@ spring:
     username: root
     password: zsr1401407..
     url: jdbc:mysql://localhost:3306/bookshop?useSSL=false&serverTimezone=GMT%2B8
-
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
 eureka:
   client:
     service-url:

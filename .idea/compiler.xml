@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="product-demo01" />
         <module name="eureka8761" />
+        <module name="gateway8084" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -19,6 +20,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="eureka8761" options="-parameters" />
+      <module name="gateway8084" options="-parameters" />
       <module name="product-demo01" options="-parameters" />
       <module name="project_eight" options="-parameters" />
       <module name="testdemo" options="-parameters" />

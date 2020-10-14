@@ -1,4 +1,4 @@
-package com.ifqf.eight.service;
+package com.itqf.eight;
 
 //
 //                       .::::.
@@ -23,18 +23,19 @@ package com.ifqf.eight.service;
  *Author:Mamoru
  *Project:project_eight
  *Method:
- *Time:2020/10/14 08:17
+ *Time:2020/10/14 17:56
  */
 
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
+import org.springframework.cloud.netflix.zuul.EnableZuulProxy;
 
-import com.ifqf.eight.entity.Product;
-
-import java.util.List;
-
-public interface ProductService {
-
-    List<Product> selectByTid(Integer tId);
-
-    void addProduct(Product product);
-
+@SpringBootApplication
+@EnableEurekaClient
+@EnableZuulProxy
+public class ApiGatewayApplication {
+    public static void main(String[] args) {
+        SpringApplication.run(ApiGatewayApplication.class, args);
+    }
 }

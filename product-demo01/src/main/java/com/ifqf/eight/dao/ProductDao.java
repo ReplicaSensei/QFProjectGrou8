@@ -34,6 +34,6 @@ import java.util.List;
 
 public interface ProductDao extends JpaRepository<Product, Integer> {
 
-    List<Product> findProductByTId(Integer TId);
+    List<Product> findProductByTId(Integer tId);
 
 }

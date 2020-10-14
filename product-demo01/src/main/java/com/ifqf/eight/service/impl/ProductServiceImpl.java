@@ -46,4 +46,9 @@ public class ProductServiceImpl implements ProductService {
     public List<Product> selectByTid(Integer tId) {
         return productDao.findProductByTId(tId);
     }
+
+    @Override
+    public void addProduct(Product product) {
+        productDao.save(product);
+    }
 }
